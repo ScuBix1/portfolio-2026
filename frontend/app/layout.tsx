@@ -16,16 +16,17 @@ export default function RootLayout({
     <html lang='fr'>
       <body>
         <div className='fixed inset-0 w-full h-full z-10'>
-          <div className='absolute inset-0 backdrop-blur-xl'></div>
+          {/* <div className='absolute inset-0 backdrop-blur-xl pointer-none'></div> */}
           <video
             preload='metadata'
             autoPlay
             loop
             muted
             className='w-full h-full object-cover object-center'
-            src='/background2.mp4'
+            src='/background1.mp4'
           >
-            <source src='/background2.mp4' type='video/mp4' />
+            <source src='/background1.mp4' type='video/mp4' />
+            <source src='/background1.webm' type='video/webm' />
           </video>
         </div>
 

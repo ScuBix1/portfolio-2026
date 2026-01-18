@@ -1,3 +1,4 @@
+import Card from '@/components/pages/About/Card/Card';
 import clsx from 'clsx';
 
 type ProfessionalExperienceProps = {
@@ -10,26 +11,30 @@ export default function ProfessionalExperience(
   const { className } = props;
 
   return (
-    <div className={clsx('space-y-4', className)}>
+    <div className={clsx('space-y-6 md:space-y-4', className)}>
       <h2 className='text-2xl font-bold text-gradient-emerald-to-blue'>
         Expériences professionnelles
       </h2>
-      <div className='space-y-1'>
-        <p className='text-lg font-medium'>Apprenti développeur front-end</p>
-        <p className='text-(--gray-information)'>Reflet Digital, 2024-2025 </p>
-      </div>
-      <div className='space-y-1'>
-        <p className='text-lg font-medium'>Stagiaire développeur full-stack</p>
-        <p className='text-(--gray-information)'>
-          Iléa.app, janvier 2024 - février 2024{' '}
-        </p>
-      </div>
-      <div className='space-y-1'>
-        <p className='text-lg font-medium'>
-          Intérimaire industrie (job étudiant)
-        </p>
-        <p className='text-(--gray-information)'>Manpower, 2019-2023</p>
-      </div>
+      <Card
+        className='mb-4'
+        name='Apprenti développeur front-end'
+        placeOrCompany='Reflet Digital'
+        srcCompanyLogo='/company/reflet-digital.png'
+        date='2024-2025'
+        companyWebsiteUrl='https://www.refletcommunication.com/fr'
+      />
+      <Card
+        name='Stagiaire développeur full-stack'
+        placeOrCompany='Iléa.app'
+        srcCompanyLogo='/company/ilea-app.png'
+        date='janvier 2024 - février 2024'
+      />
+      <Card
+        name='Intérimaire industrie (job étudiant)'
+        placeOrCompany='Manpower'
+        srcCompanyLogo='/company/manpower.png'
+        date='2019-2023'
+      />
     </div>
   );
 }

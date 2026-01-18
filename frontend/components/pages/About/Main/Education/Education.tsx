@@ -1,4 +1,5 @@
 import clsx from 'clsx';
+import Card from '../../Card/Card';
 
 type EducationProps = {
   className?: string;
@@ -8,28 +9,28 @@ export default function Education(props: EducationProps) {
   const { className } = props;
 
   return (
-    <div className={clsx('space-y-4', className)}>
+    <div className={clsx('space-y-6 md:space-y-4', className)}>
       <h2 className='text-2xl font-bold text-gradient-emerald-to-blue'>
         Diplômes
       </h2>
-      <div className='space-y-1'>
-        <p className='text-lg font-medium'>
-          Bachelor Concepteur Développeur d'application (Bac +3)
-        </p>
-        <p className='text-(--gray-information)'>MyDigitalSchool, 2024-2025 </p>
-      </div>
-      <div className='space-y-1'>
-        <p className='text-lg font-medium'>
-          TP Développeur Web et Web Mobile (Bac +2)
-        </p>
-        <p className='text-(--gray-information)'>OnlineFormaPro, 2023-2024 </p>
-      </div>
-      <div className='space-y-1'>
-        <p className='text-lg font-medium'>Baccalauréat STI2D option SIN</p>
-        <p className='text-(--gray-information)'>
-          Lycée Gustave Eiffel, 2018-2019{' '}
-        </p>
-      </div>
+      <Card
+        name="Bachelor Concepteur Développeur d'application (Bac +3)"
+        placeOrCompany='MyDigitalSchool'
+        srcCompanyLogo='/education/my-digital-school.png'
+        date='2024-2025'
+      />
+      <Card
+        name='TP Développeur Web et Web Mobile (Bac +2)'
+        placeOrCompany='OnlineFormaPro'
+        srcCompanyLogo='/education/online-forma-pro.jpg'
+        date='2023-2024'
+      />
+      <Card
+        name='Baccalauréat STI2D option SIN'
+        placeOrCompany='Lycée Gustave Eiffel'
+        srcCompanyLogo='/education/gustave-eiffel.png'
+        date='2018-2019'
+      />
     </div>
   );
 }
