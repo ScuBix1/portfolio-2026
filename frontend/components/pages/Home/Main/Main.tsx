@@ -10,7 +10,7 @@ export default function Main(props: MainProps) {
   const { className } = props;
 
   return (
-    <>
+    <div className={className}>
       <div>
         <h1 className='text-4xl'>Bastian MONNIN</h1>
         <h3 className='text-xl font-bold mt-2 text-gradient-emerald-to-blue'>
@@ -32,6 +32,6 @@ export default function Main(props: MainProps) {
       <Navigation />
 
       <SocialNetworks />
-    </>
+    </div>
   );
 }

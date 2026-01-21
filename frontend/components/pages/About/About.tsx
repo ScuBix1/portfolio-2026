@@ -1,11 +1,11 @@
-import Header from '@/components/pages/About/Header/Header';
+import BackHome from '@/components/BackHome/BackHome';
 import Main from '@/components/pages/About/Main/Main';
 
 export default function About() {
   return (
     <div className='min-h-screen flex items-center justify-center'>
       <main className='w-full max-w-[90%] m-3 space-y-8 border border-gray-700/50 rounded-xl p-5 backdrop-blur-xl bg-(--background)/80 z-20 sm:p-10 md:m-8 md:max-w-[85%] xl:max-w-[60%]'>
-        <Header />
+        <BackHome />
         <Main />
       </main>
     </div>

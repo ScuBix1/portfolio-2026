@@ -2,11 +2,11 @@ import { AppLink } from '@/components/AppLink/AppLink';
 import { Button } from '@/components/ui/button';
 import { BsArrowLeft } from 'react-icons/bs';
 
-type HeaderProps = {
+type BackHomeProps = {
   className?: string;
 };
 
-const Header = (props: HeaderProps) => {
+const BackHome = (props: BackHomeProps) => {
   const { className } = props;
   return (
     <div className={className}>
@@ -22,4 +22,4 @@ const Header = (props: HeaderProps) => {
   );
 };
 
-export default Header;
+export default BackHome;
