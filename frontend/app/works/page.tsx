@@ -1,3 +1,5 @@
+import Works from '@/components/pages/Works/Works';
+
 export default function page() {
-  return <div></div>;
+  return <Works />;
 }
