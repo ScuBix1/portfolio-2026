@@ -4,7 +4,7 @@
       "id": 1,
       "title": "SecuriCarte",
       "description": "Réalisation personnelle en cours dans le but de répertorier les actes de violences sur une carte interactive et de tester de manipuler des technologies que je n'ai jamais utilisé",
-      "image": "/project1.png",
+      "image": "/works/project1.png",
       "tags": [
         "AngularJS",
         "TypeScript",
@@ -19,7 +19,7 @@
       "id": 2,
       "title": "MyDigitalProject",
       "description": "Réalisation institutionnelle en équipe au sein d'une équipe durant 6 mois en parallèle de l'alternance dans le but de développer la logique mathématique au enfant de 3 à 6 ans.",
-      "image": "/project2.png",
+      "image": "/works/project2.png",
       "tags": [
         "ReactJS",
         "TypeScript",
@@ -35,7 +35,7 @@
       "id": 3,
       "title": "Longines",
       "description": "Réalisation professionnelle en équipe au sein d'une PME (Reflet Digital) durant 2 mois dans le but de faire de la maintenance et de développer de nouvelles fonctionnalités",
-      "image": "/project3.png",
+      "image": "/works/project3.png",
       "tags": [
         "Next.js",
         "TypeScript",
@@ -49,21 +49,21 @@
       "id": 4,
       "title": "Ebat V2",
       "description": "Réalisation professionnelle en équipe au sein d'une PME (Reflet Digital) durant 10 mois dans le but d'améliorer le design, d'uniformiser les composant, de restructurer l'architecture pour gagner du temps de maintenance et faciliter la prise en main du projet.",
-      "image": "/project4.png",
+      "image": "/works/project4.png",
       "tags": ["Next.js", "TypeScript", "TanstackQuery", "Shadcn", "Tailwind"]
     },
     {
       "id": 5,
       "title": "Ilea.app",
       "description": "Réalisation professionnelle en équipe au sein d'une start-up durant un stage de 2 mois dans le but de faciliter la gestion pour la beauté à domicile.",
-      "image": "/project5.png",
+      "image": "/works/project5.png",
       "tags": ["ReactJS", "Node.js", "MongoDB", "Tailwind", "Express"]
     },
     {
       "id": 6,
       "title": "Portfolio 2024",
       "description": "Premier portfolio réalisé durant le titre professionnel de développeur web et web mobile, dans le but d'obtenir un stage dans un premier temps, puis une alternance dans un second temps",
-      "image": "/project6.png",
+      "image": "/works/project6.png",
       "tags": ["HTML", "CSS", "JavaScript", "PHP", "MySQL"]
     }
   ]
