@@ -1,0 +1,36 @@
+{
+  "categories": [
+    {
+      "name": "Développement Front-end",
+      "skills": [
+        { "name": "React.js", "icon": "FaReact" },
+        { "name": "Next.js", "icon": "SiNextdotjs" },
+        { "name": "TypeScript", "icon": "SiTypescript" },
+        { "name": "Tailwind CSS", "icon": "SiTailwindcss" }
+      ]
+    },
+    {
+      "name": "Développement Back-end",
+      "skills": [
+        { "name": "Node.js", "icon": "FaNodeJs" },
+        { "name": "Nest.js", "icon": "SiNestjs" },
+        { "name": "MongoDB", "icon": "SiMongodb" },
+        { "name": "PostgreSQL", "icon": "SiPostgresql" },
+        { "name": "PHP", "icon": "FaPhp" }
+      ]
+    },
+    {
+      "name": "Outils & Autres",
+      "skills": [
+        { "name": "Git & GitHub", "icon": "FaGithub" },
+        { "name": "Git & GitLab", "icon": "FaGitlab" },
+        { "name": "Docker", "icon": "FaDocker" },
+        { "name": "CI/CD", "icon": "SiGithubactions" },
+        { "name": "Jira", "image": "/icons/jira.svg" },
+        { "name": "Confluence", "image": "/icons/confluence.svg" },
+        { "name": "Slack", "icon": "SiSlack" },
+        { "name": "Agile SCRUM", "image": "/icons/scrum.svg" }
+      ]
+    }
+  ]
+}

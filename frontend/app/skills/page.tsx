@@ -1,3 +1,5 @@
+import Skills from '@/components/pages/Skills/Skills';
+
 export default function page() {
-  return <div></div>;
+  return <Skills />;
 }
