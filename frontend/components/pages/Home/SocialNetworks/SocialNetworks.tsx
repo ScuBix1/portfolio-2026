@@ -1,5 +1,6 @@
 import { Button } from '@/components/ui/button';
 import clsx from 'clsx';
+import Link from 'next/link';
 import { BiLogoDiscord, BiLogoGithub, BiLogoLinkedin } from 'react-icons/bi';
 import { HiArrowDown } from 'react-icons/hi';
 
@@ -19,14 +20,32 @@ export default function SocialNetworks(props: SocialNetworksProps) {
       </div>
 
       <div className='flex flex-col gap-3'>
-        <Button variant='socialNetworks'>
-          <BiLogoGithub /> Github
+        <Button variant='socialNetworks' asChild>
+          <Link
+            href='https://github.com/ScuBix1'
+            target='_blank'
+            rel='noopener noreferrer'
+          >
+            <BiLogoGithub /> Github
+          </Link>
         </Button>
-        <Button variant='socialNetworks'>
-          <BiLogoLinkedin /> LinkedIn
+        <Button variant='socialNetworks' asChild>
+          <Link
+            href='https://www.linkedin.com/in/bastian-monnin-036178208/'
+            target='_blank'
+            rel='noopener noreferrer'
+          >
+            <BiLogoLinkedin /> LinkedIn
+          </Link>
         </Button>
-        <Button variant='socialNetworks'>
-          <BiLogoDiscord /> Discord
+        <Button variant='socialNetworks' asChild>
+          <Link
+            href='https://discord.com/users/284818690191392768'
+            target='_blank'
+            rel='noopener noreferrer'
+          >
+            <BiLogoDiscord /> Discord
+          </Link>
         </Button>
       </div>
     </div>
