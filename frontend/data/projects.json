@@ -3,7 +3,7 @@
     {
       "id": 1,
       "title": "SecuriCarte",
-      "description": "Réalisation personnelle en cours dans le but de répertorier les actes de violences sur une carte interactive et de tester de manipuler des technologies que je n'ai jamais utilisé",
+      "description": "Réalisation personnelle en cours dans le but de répertorier les actes de violences sur une carte interactive et de manipuler des technologies que je n'ai jamais utilisé",
       "image": "/works/project1.png",
       "tags": [
         "AngularJS",
@@ -13,12 +13,13 @@
         "SCSS",
         "NestJS",
         "PostgreSQL"
-      ]
+      ],
+      "githubProjectLink": "https://github.com/ScuBix1/SecuriCarte"
     },
     {
       "id": 2,
       "title": "MyDigitalProject",
-      "description": "Réalisation institutionnelle en équipe au sein d'une équipe durant 6 mois en parallèle de l'alternance dans le but de développer la logique mathématique au enfant de 3 à 6 ans.",
+      "description": "Réalisation institutionnelle au sein d'une équipe durant 6 mois en parallèle de l'alternance dans le but de développer la logique mathématiques aux enfants de 3 à 6 ans.",
       "image": "/works/project2.png",
       "tags": [
         "ReactJS",
@@ -29,7 +30,10 @@
         "PostgreSQL",
         "Stripe",
         "Jest"
-      ]
+      ],
+      "githubFrontProjectLink": "https://github.com/ScuBix1/frontend-mydigitalproject",
+      "githubBackProjectLink": "https://github.com/ScuBix1/backend-myDigitalProject",
+      "demoProjectLink": "https://frontend-mydigitalproject.vercel.app"
     },
     {
       "id": 3,
@@ -43,12 +47,13 @@
         "MaterialUI",
         "Shadcn",
         "VueJS"
-      ]
+      ],
+      "demoProjectLink": "https://www.longines.com/fr/"
     },
     {
       "id": 4,
       "title": "Ebat V2",
-      "description": "Réalisation professionnelle en équipe au sein d'une PME (Reflet Digital) durant 10 mois dans le but d'améliorer le design, d'uniformiser les composant, de restructurer l'architecture pour gagner du temps de maintenance et faciliter la prise en main du projet.",
+      "description": "Réalisation professionnelle en équipe au sein d'une PME (Reflet Digital) durant 10 mois dans le but d'améliorer le design, d'uniformiser les composants, de restructurer l'architecture pour gagner du temps de maintenance et faciliter la prise en main du projet.",
       "image": "/works/project4.png",
       "tags": ["Next.js", "TypeScript", "TanstackQuery", "Shadcn", "Tailwind"]
     },
@@ -57,14 +62,17 @@
       "title": "Ilea.app",
       "description": "Réalisation professionnelle en équipe au sein d'une start-up durant un stage de 2 mois dans le but de faciliter la gestion pour la beauté à domicile.",
       "image": "/works/project5.png",
-      "tags": ["ReactJS", "Node.js", "MongoDB", "Tailwind", "Express"]
+      "tags": ["ReactJS", "Node.js", "MongoDB", "Tailwind", "Express"],
+      "demoProjectLink": "https://www.ilea-connect.com/"
     },
     {
       "id": 6,
       "title": "Portfolio 2024",
-      "description": "Premier portfolio réalisé durant le titre professionnel de développeur web et web mobile, dans le but d'obtenir un stage dans un premier temps, puis une alternance dans un second temps",
+      "description": "Premier portfolio réalisé durant le titre professionnel de développeur web et web mobile, dans le but d'obtenir un stage dans un premier temps, puis une alternance dans un second temps (mission accomplie)",
       "image": "/works/project6.png",
-      "tags": ["HTML", "CSS", "JavaScript", "PHP", "MySQL"]
+      "tags": ["HTML", "CSS", "JavaScript", "PHP", "MySQL"],
+      "githubProjectLink": "https://github.com/ScuBix1/portfolio-sans3d",
+      "demoProjectLink": "https://bastian-monnin.alwaysdata.net/"
     }
   ]
 }

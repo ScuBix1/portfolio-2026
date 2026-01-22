@@ -4,4 +4,8 @@ export type ProjectType = {
   description: string;
   image: string;
   tags: string[];
+  githubProjectLink?: string;
+  demoProjectLink?: string;
+  githubFrontProjectLink?: string;
+  githubBackProjectLink?: string;
 };

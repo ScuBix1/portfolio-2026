@@ -14,7 +14,7 @@ export default function Main(props: MainProps) {
 
   return (
     <div className={className}>
-      <h1 className='text-5xl font-bold text-gradient-emerald-to-blue'>
+      <h1 className='text-5xl font-bold text-gradient-emerald-to-blue mb-8'>
         Réalisations
       </h1>
       <div className='grid grid-cols-1 gap-6 md:grid-cols-2'>
