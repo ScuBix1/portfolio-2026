@@ -18,15 +18,19 @@ export default function Main(props: MainProps) {
           Développeur Web
         </h3>
         <p>
-          Bonjour, c'est Bastian. Je suis un{' '}
-          <strong>développeur web junior</strong> avec un peu plus d'un an
-          d'expérience professionnelle. Je suis actuellement en recherche d'une{' '}
-          <strong>alternance pour un master</strong>.{' '}
+          {"Bonjour, c'est Bastian. Je suis un "}
+          <strong>développeur web junior</strong>
+          {
+            " avec un peu plus d'un an d'expérience professionnelle. Je suis actuellement en recherche d'une "
+          }
+          <strong>alternance pour un master</strong>
+          {'. '}
           <AppLink href='/contact' variant='emeraldToBlue'>
             Contactez-moi
-          </AppLink>{' '}
-          si vous souhaitez former un développeur engagé pour assurer la
-          continuité et l’évolution de votre projet.
+          </AppLink>
+          {
+            ' si vous souhaitez former un développeur engagé pour assurer la continuité et l’évolution de votre projet.'
+          }
         </p>
       </div>
 
