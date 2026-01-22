@@ -1,6 +1,7 @@
 import { AppLink } from '@/components/AppLink/AppLink';
 import Navigation from '@/components/pages/Home/Navigation/Navigation';
 import SocialNetworks from '@/components/pages/Home/SocialNetworks/SocialNetworks';
+import clsx from 'clsx';
 
 type MainProps = {
   className?: string;
@@ -10,7 +11,7 @@ export default function Main(props: MainProps) {
   const { className } = props;
 
   return (
-    <div className={className}>
+    <div className={clsx('space-y-4', className)}>
       <div>
         <h1 className='text-4xl'>Bastian MONNIN</h1>
         <h3 className='text-xl font-bold mt-2 text-gradient-emerald-to-blue'>
