@@ -14,7 +14,8 @@
         "NestJS",
         "PostgreSQL"
       ],
-      "githubProjectLink": "https://github.com/ScuBix1/SecuriCarte"
+      "githubProjectLink": "https://github.com/ScuBix1/SecuriCarte",
+      "demoProjectLink": "https://securi-carte.vercel.app"
     },
     {
       "id": 2,
