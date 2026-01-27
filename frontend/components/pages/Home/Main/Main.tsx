@@ -24,7 +24,7 @@ export default function Main(props: MainProps) {
           {
             " avec un peu plus d'un an d'expérience professionnelle. Je suis actuellement en recherche d'une "
           }
-          <strong>opportunitée</strong>
+          <strong>opportunité</strong>
           {'. '}
           <AppLink href='/contact' variant='emeraldToBlue'>
             Contactez-moi

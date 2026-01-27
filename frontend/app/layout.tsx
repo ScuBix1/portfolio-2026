@@ -6,7 +6,7 @@ import './globals.css';
 export const metadata: Metadata = {
   title: 'Bastian Monnin - Développeur Web',
   description:
-    "Portfolio pour une recherche d'opportunitée dans le développement d'application",
+    "Portfolio pour une recherche d'opportunité dans le développement d'application",
 };
 
 export default function RootLayout({
