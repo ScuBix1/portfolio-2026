@@ -1,6 +1,7 @@
 import { AppLink } from '@/components/AppLink/AppLink';
 import Navigation from '@/components/pages/Home/Navigation/Navigation';
 import SocialNetworks from '@/components/pages/Home/SocialNetworks/SocialNetworks';
+import VisitCounter from '@/components/pages/Home/VisitCounter/VisitCounter';
 import clsx from 'clsx';
 
 type MainProps = {
@@ -23,7 +24,7 @@ export default function Main(props: MainProps) {
           {
             " avec un peu plus d'un an d'expérience professionnelle. Je suis actuellement en recherche d'une "
           }
-          <strong>alternance pour un master</strong>
+          <strong>opportunitée</strong>
           {'. '}
           <AppLink href='/contact' variant='emeraldToBlue'>
             Contactez-moi
@@ -37,6 +38,8 @@ export default function Main(props: MainProps) {
       <Navigation />
 
       <SocialNetworks />
+
+      <VisitCounter />
     </div>
   );
 }
