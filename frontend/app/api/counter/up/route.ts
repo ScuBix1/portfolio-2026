@@ -3,7 +3,7 @@ import { NextResponse } from 'next/server';
 export async function GET() {
   try {
     const res = await fetch(
-      'https://api.counterapi.dev/v2/bastians-team-2653/portfolio/up'
+      'https://api.counterapi.dev/v2/bastians-team-2653/visitors-counter-2345/up'
     );
     const data = await res.json();
 
